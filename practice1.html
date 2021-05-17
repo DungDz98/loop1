@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice1</title>
+</head>
+<body>
+<h2>JavaScript Loops</h2>
+<p id="demo"></p>
+<script>
+    //Print number
+    let text = "";
+    let i;
+    for (i = 0; i < 5; i++) {
+        text += "The number is " + i + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+
+    //Sum
+    let total = 0;
+    let j = 1;
+    let number = parseInt(prompt('Enter your number: '));
+    for (;j <= number; j++) {
+        total += j;
+    }
+    alert(total);
+</script>
+</body>
+</html>
